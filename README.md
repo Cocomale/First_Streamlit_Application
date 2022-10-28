@@ -1,4 +1,4 @@
-## First Streamlit Application! Randomly generates math olympiad probems!
+## First Streamlit Application! Randomly generates Math Olympiad probems!
 
 ### Initial Outline
 1. Create a new repository on your Github profile. Click on the 'Code' tab on the Github repo page -> copy the branch URL -> git clone <url> in your local repository space
