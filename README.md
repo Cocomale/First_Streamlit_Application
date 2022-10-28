@@ -1,8 +1,7 @@
 # First_Streamlit_Application
-First streamlit application to create a fast Python based UI
 
-
-1. Click on the 'Code' tab on the Github repo page -> copy the branch URL -> git clone <url> in your local repository space
+## Initial Outline
+1. Create a new repository on your Github profile. Click on the 'Code' tab on the Github repo page -> copy the branch URL -> git clone <url> in your local repository space
    
 2. Create a virtual environment in the local directory named "virtual_env". These commands are to be run on your Anaconda Promp (Note that First_Streamlit_Application is my repo/directory name for this project):
    >python -m venv ...\First_Streamlit_Application\virtual_env
@@ -23,4 +22,21 @@ First streamlit application to create a fast Python based UI
    
 7. From Anaconda Prompt, run this command:
    >streamlit run app/main.py
+   
+## Customizations
+   a). Create a solarized theme:
+>vi .streamlit/config.toml
+   
+   
+     [theme]
+     primaryColor="#d33682"
+     backgroundColor="#002b36"
+     secondaryBackgroundColor="#586e75"
+     textColor="#fafafa"
+     font="sans serif"
+   
+   
+   b). Create a custom background. Since streamlit doesn't allow custom backgrounds by default, base64 decoding and st.markdown must be used with HTML formatting. These functions go into /app/utils.py, and a background image file can be stored in /assets.
+   
+   c). main.py also needs to be informed of the changes. These can be achieved using st.set_page_config() and set_bg() functions. 
 
