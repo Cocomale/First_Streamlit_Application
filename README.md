@@ -35,4 +35,7 @@ First streamlit application to create a fast Python based UI
      secondaryBackgroundColor="#586e75"
      textColor="#fafafa"
      font="sans serif"
+   
+   
+   b). Create a custom background. Since streamlit doesn't allow custom backgrounds by default, base64 decoding and st.markdown must be used with HTML formatting. These functions go into /app/utils.py, and a background image file can be stored in /assets.
 
