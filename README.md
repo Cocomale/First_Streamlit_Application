@@ -26,7 +26,7 @@ First streamlit application to create a fast Python based UI
    
 # Customizations
    a). Create a solarized theme:
-     >vi .streamlit/config.toml
+    >vi .streamlit/config.toml
      [theme]
      primaryColor="#d33682"
      backgroundColor="#002b36"
