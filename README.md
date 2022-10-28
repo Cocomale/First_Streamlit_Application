@@ -38,4 +38,6 @@ First streamlit application to create a fast Python based UI
    
    
    b). Create a custom background. Since streamlit doesn't allow custom backgrounds by default, base64 decoding and st.markdown must be used with HTML formatting. These functions go into /app/utils.py, and a background image file can be stored in /assets.
+   
+   c). main.py also needs to be informed of the changes. These can be achieved using st.set_page_config() and set_bg() functions. 
 
