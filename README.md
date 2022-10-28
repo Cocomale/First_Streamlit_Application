@@ -23,4 +23,14 @@ First streamlit application to create a fast Python based UI
    
 7. From Anaconda Prompt, run this command:
    >streamlit run app/main.py
+   
+# Customizations
+   a). Create a solarized theme:
+     >vi .streamlit/config.toml
+     [theme]
+     primaryColor="#d33682"
+     backgroundColor="#002b36"
+     secondaryBackgroundColor="#586e75"
+     textColor="#fafafa"
+     font="sans serif"
 
