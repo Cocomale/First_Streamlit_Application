@@ -17,7 +17,10 @@ First streamlit application to create a fast Python based UI
    - assets/
    - requirements.txt
 
-5. You can just mimic the sub-directoies and files from my repository. Preferably, build them yourself rather than just cloning my repo :-)
+5. You can just mimic the sub-directories and files from my repository. Preferably, build them yourself rather than just cloning my repo :-)
 
-6. 
+6. Under /app, utils.py must hold the head, body and content related functions of the UI being built. main.py must contain a call to the functions in utils.py. 
+   
+7. From Anaconda Prompt, run this command:
+   >streamlit run app/main.py
 
