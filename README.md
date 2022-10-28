@@ -1,7 +1,7 @@
 # First_Streamlit_Application
 
 ## Initial Outline
-1. Click on the 'Code' tab on the Github repo page -> copy the branch URL -> git clone <url> in your local repository space
+1. Create a new repository on your Github profile. Click on the 'Code' tab on the Github repo page -> copy the branch URL -> git clone <url> in your local repository space
    
 2. Create a virtual environment in the local directory named "virtual_env". These commands are to be run on your Anaconda Promp (Note that First_Streamlit_Application is my repo/directory name for this project):
    >python -m venv ...\First_Streamlit_Application\virtual_env
